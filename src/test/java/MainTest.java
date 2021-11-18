@@ -24,6 +24,7 @@ public class MainTest {
         System.out.println(koscheiTheDeathless.getRulesByDeth());
         String testText = koscheiTheDeathless.getRulesByDeth();
 
+        //Странный тест, да и сундук потеряли(-;
         if (!testText.contains(text) && testText.length() <= text.length()) {
             Assert.fail("Тест провален, не корректная связь бинов. Итоговая фраза не верна.");
         }
